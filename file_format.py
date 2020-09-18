@@ -17,7 +17,7 @@ str1 = '''#!/usr/bin/python3
 
 '''%s
 
+filepath = input("输入文件路径：")
 
-# print(str1)
-with open(filename + '.py', 'w', encoding='utf-8') as f:
+with open(filepath + filename + '.py', 'w', encoding='utf-8') as f:
     f.write(str1)
